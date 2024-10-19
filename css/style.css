@@ -1,0 +1,739 @@
+body {
+    background: #5F8575;
+    overflow-x: hidden;
+}
+
+header {
+    /* position: relative;
+    width: 100%;
+    z-index: 9; */
+    background: rgb(139 139 139 / 70%);
+}
+
+section.opert-profile {
+    background: #5F8575;
+}
+
+.card {
+    background-color: #5F8575;
+}
+
+h2 strong {
+    color: white;
+}
+
+.form-p {
+    padding-left: 50px;
+    text-align: left;
+    color: white;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-right: 50px;
+}
+
+.fs-title {
+    color: white;
+}
+
+#msform fieldset {
+    background: #5F8575;
+    border-radius: 0;
+}
+
+#msform fieldset .form-card {
+    background: #5F8575;
+    /* border: 0 none; */
+    border-radius: 0px;
+    box-shadow: none;
+    color: white;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #686869;
+}
+
+/* .form-floating.width {
+    width: 83%;
+} */
+
+/* 3rd page */
+#msform input,
+#msform textarea {
+    padding: 10px;
+}
+
+
+h4 {
+    font-size: medium;
+}
+
+label.left-button {
+    position: relative;
+    top: -10%;
+    right: 38%;
+    font-size: larger;
+    font-style: bold;
+    color: white;
+
+}
+
+.form-check input#acceptCheckbox {
+    width: 10px;
+    margin-left: auto;
+    /* padding-top: 12px; */
+    margin-bottom: 0;
+}
+
+.form-check.last-section {
+    display: flex;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 15%;
+    gap: 16px;
+    color: white;
+}
+
+.last-section-content-data {
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-size: larger;
+    font-size: 20px;
+    font-weight: 700;
+    /* text-align: center; */
+    position: relative;
+    left: 52px;
+}
+
+.last-section-img img {
+    width: 30px;
+    /* height: auto; */
+}
+
+
+
+/* 2nd page  */
+
+.form-floating {
+    width: 100%;
+}
+
+input#checkbox1 {
+    margin-right: 2%;
+    width: 2%;
+}
+
+.form-floating {
+    position: relative;
+    display: flex;
+}
+
+#msform .form-check-data input[type="checkbox"] {
+    width: 10px;
+    padding: 10px;
+    margin-right: 0;
+}
+
+#msform .form-check-data input[type="checkbox"] {
+    width: 10px;
+    padding: 10px;
+}
+
+/* .col-md-space1 {
+    width: 40%;
+}
+
+.col-md-space2 {
+    width: 40%;
+    position: relative;
+    right: -30%;
+    bottom: 33px;
+}
+
+.col-md-space3 {
+    width: 40%;
+}
+
+.col-md-spacing {
+    margin-top: 40px;
+    margin-bottom: 40px;
+} */
+
+.form-floating>label {
+    position: absolute;
+    top: -6px;
+    left: 60px;
+    z-index: 2;
+    height: 100%;
+    padding: 1rem 0.75rem;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    pointer-events: none;
+    font-weight: 700;
+}
+
+/* transparent boxes */
+#file-input {
+    display: none;
+}
+
+#file-input-label {
+    font-size: 1.3em;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 4%;
+}
+
+a#file-input-label\ hidebox\ color {
+    font-size: 1.3em;
+    /* padding: 10px 15px; */
+    border: none;
+    /* border-radius: 4%; */
+    color: black;
+    background-color: white;
+}
+
+.col-md-spacing {
+    margin-top: 20px;
+}
+
+input.center {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 43%;
+    background: transparent;
+    color: white;
+    box-shadow: 0 0 0 6px;
+    font-weight: 600;
+}
+
+/* job application section start  */
+
+h2.about-align-center {
+    text-align: center;
+    color: white;
+}
+
+.form-p {
+    padding: 0 10% 0 10%;
+    color: white;
+}
+
+h1.text-decor {
+    font-size: larger;
+}
+
+.last-content {
+    display: inline-flex;
+    gap: 10px;
+}
+
+/* job application section end */
+
+/* about section start */
+.form-p {
+    color: white;
+    text-align: center;
+    text-align: left;
+    /* padding-left: 200px;
+    padding-right: 150px; */
+    font-weight: 500;
+    margin-top: 35px;
+}
+
+h2.about-align-center {
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    background: #5F8575;
+}
+
+/* about section end */
+
+/* login section start */
+input[type=text],
+input[type=password] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    /* padding: 14px 20px; */
+    margin: 19px 0;
+    border: 7px solid white;
+    /* cursor: pointer; */
+    justify-content: center;
+    /* align-items: center; */
+    /* display: flex; */
+    /* text-align: center; */
+    position: fixed;
+    left: 47%;
+    font-size: larger;
+    color: white;
+    background-color: transparent;
+    margin-top: -20px;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.container.spacing {
+    padding: 16px;
+    /* width: 50%; */
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+input#file-input {
+    display: none;
+}
+
+/* label#file-input-label\ hidebox {
+    position: relative;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 45%;
+    bottom: 0;
+    top: -7px;
+} */
+/* login section end */
+
+/* contact us start */
+
+section.Contac-us {
+    color: white;
+    padding: 0 10% 0 10%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contact-us-options {
+    display: inline-block;
+}
+
+img.left-conatct {
+    width: 30px;
+}
+
+img.left-mail {
+    width: 30px;
+}
+
+.first {
+    display: flex;
+    gap: 5px;
+}
+
+.second {
+    display: flex;
+    gap: 5px;
+
+}
+
+/* contact us end */
+select#floatingSelectGrid2 {
+    width: 25%;
+}
+
+select#floatingSelectGrid3 {
+    width: 25%;
+}
+
+.row.g-2.left {
+    position: relative;
+    left: 30%;
+    top: -47px;
+}
+
+.form-label {
+    margin-bottom: 1.5rem;
+}
+
+.form-check {
+    min-height: 45px;
+}
+
+#msform input input.center {
+    width: 14%;
+}
+
+input.center-width {
+    display: flex;
+    margin: 0 44% 0;
+    width: 13% !important;
+    font-weight: bold;
+    background: skyblue;
+    color: white;
+}
+
+button {
+    position: absolute !important;
+    margin-top: 35px;
+}
+
+label#file-input-label\ login {
+    margin-left: 45%;
+}
+.col {
+    background: #5F8575;
+}
+
+/* media querry
+Screen Size according to 
+For Mobile devices: 320px-480px
+For Tablets or iPad: 480px - 768px
+For Laptop or small-size screen: 768px -1024px
+For Desktop or large-size screen: 1024px -1200px 1024
+For Extra-large size device: 1200px-1400px and more 
+1900 =1600*/
+/* @media only screen and (max-width: 1900px ) {
+    .form-floating.width {
+        width: 84%;
+    }
+}
+@media only screen and (max-width: 1400px ) {
+    .form-floating.width {
+        width: 83%;
+    }
+}
+@media only screen and (max-width: 1200px ) {
+    .form-floating.width {
+        width: 60%
+    }
+    #msform .action-button {
+        width: 13%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .spacs {
+        flex-direction: column;
+    }
+    .col-md-space2 {
+        width: 60%;
+    }
+    .col-md-space3 {
+        width: 45%;
+    }
+    .form-floating-sp p {
+        width: 426px;
+    }
+    .row.g-2.laptop1 {
+        gap: 2%;
+        position: relative;
+        left: 0%;
+        right: 0;
+        top: 80px;
+    }
+
+    .row.g-2.laptop2 {
+        gap: 2%;
+        position: relative;
+        top: -60px;
+    }
+
+    .col-md-width1 {
+        position: absolute;
+        left: 35%;
+        bottom: 15%;
+    }
+
+    .col-md-width2 {
+        position: relative;
+        left: 130%;
+        bottom: 90px;
+    }
+    #msform .action-button {
+        width: 11%;
+    } 
+    .row.g-2.laptop3 {
+        position: relative;
+        top: 45px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    #progressbar li {
+        list-style-type: none;
+        font-size: 12px;
+        width: 21%;
+    }
+
+    .col-6.tablet {
+        width: 100%;
+    }
+
+    .fs-title {
+        text-align: center;
+    }
+
+    .form-floating {
+        position: relative;
+        display: flex;
+        position: relative;
+        left: 20%;
+    }
+
+    .form-floating.width {
+        width: 64%;
+    }
+
+    #msform .action-button {
+        width: 29%;
+    }
+
+    .col-md-space2 {
+        width: 100%;
+        position: static;
+    }
+
+    .col-md-space1 {
+        width: 100%;
+    }
+
+    .col-md-space3 {
+        width: 100%;
+    }
+
+    .row.g-2.laptop1 {
+        gap: 2%;
+        position: relative;
+        right: 0;
+        top: 80px;
+    }
+    .row.g-2.laptop2 {
+        position: relative;
+        top: -54px;
+    }
+    .row.g-2.laptop3 {
+        position: relative;
+        left: 0;
+        top: 40px;
+    }
+
+    .form-floating-sp p {
+        width: 350px;
+        text-align: center;
+    }
+    .col-md-spacing {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
+    .col-md-tablet {
+        position: fixed;
+    }
+
+    .col-md.tablet {
+        position: absolute;
+        left: 22px;
+    }
+    label.left-button {
+        top: -2%;
+        right: 0%;
+        font-size: larger;
+        color: white;
+    }
+    #msform input, #msform textarea {
+        padding: 10px;
+        left: 140px;
+    }
+    .col-md.left {
+        position: fixed;
+    }
+} */
+
+
+@media only screen and (max-width: 1024px) {
+    .row.g-2 {
+        display: contents;
+    }
+
+    .form-p.width {
+        /* font-size: 20px; */
+        width: 160%;
+        margin-top: 67px;
+        margin-left: 15%;
+    }
+
+    select#floatingSelectGrid3 {
+        width: 40%;
+    }
+
+    select#floatingSelectGrid2 {
+        width: 40%;
+    }
+
+    .form-floating-sp {
+        width: 400px;
+    }
+
+    input.center-width {
+        width: auto !important;
+        margin-left: 41% !important;
+    }
+
+    label#file-input-label\ login {
+        margin-left: 42%;
+    }
+
+    button {
+        left: 45%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .top-header-login-text {
+        display: none;
+    }
+
+    button.navbar-toggler {
+        left: 95%;
+    }
+
+    /* .mt-0 {
+        margin-top: -100px !important;
+    } */
+    /* .col-6.tablet {
+        width: 100% !important;
+    } */
+
+    #msform .action-button {
+        width: 14%;
+    }
+    .row.shifty {
+        display: flow-root;
+    }
+    .fs-title {
+        color: white;
+        text-align: center;
+    }
+    select#floatingSelectGrid2 {
+        width: 100%;
+    }
+    select#floatingSelectGrid3 {
+        width: 100%;
+    }
+    .form-floating-sp {
+        width: 109%;
+    }
+    .row.g-2.laptop1 {
+        display: flex;
+        margin-top: 5px
+    }
+    .row.g-2.laptop2 {
+        display: flex;
+    }
+    .row.g-2.laptop3 {
+        display: flex;
+        margin-top: 5px;
+    }
+    .row.content {
+        display: contents;
+    }
+    input.center-width {
+            margin-left: 38% !important;
+    }
+}
+@media only screen and (max-width: 480px)
+ {
+    .col-6.tablet {
+        display: inline-table;
+        width: 65%;
+    }
+    .fs-title {
+        color: white;
+        text-align: center;
+        width: 320px;
+    }
+    #msform .action-button {
+        width: 30%;
+    }
+    #msform fieldset .form-card {
+        width: 380px;
+        /* margin: 25px; */
+    }
+    .form-floating-sp {
+        width: 380px;
+    }
+    #msform .action-button {
+        width: 100px;
+    }
+    /* p {
+        margin-right: -200px;
+    } */
+    button.navbar-toggler.close-btn {
+        left: 90%;
+    }
+    .form-p.width {
+        /* font-size: 20px; */
+        width: 160%;
+        margin-top: 67px; 
+        margin-left: 0;
+    }
+    button.navbar-toggler {
+        left: 90%;
+    }
+    #progressbar {
+        padding: 0 !important;
+    }
+    .form-p.width {
+        margin-top: 0 !important;
+    }
+    section.opert-profile {
+        padding: 0;
+        background: #5F8575;
+    }
+    .form-p.width p {
+        margin-right: 0 !important;
+    }
+    #msform fieldset .form-card {   
+        padding: 20px;       
+    }
+    .col-6.col-md.col-sm-12 {
+        width: 100% !important;
+    }
+    .form-p p {
+        margin: 0 !important;
+    }
+    .content .col-6 {
+        width: 100%;
+    }
+    label.left-button {
+        right: 15%;
+    }
+    input.center-width {
+        margin-left: 30% !important;
+        margin: 0;
+    }
+}
+
+/* 1920-360 */

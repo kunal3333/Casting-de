@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Opert Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <style>
+        header {
+             position: fixed;
+    width: 100%;
+    z-index: 2;
+            position: relative;
+            width: 100%;
+            z-index: 9;
+            background: rgb(139 139 139 / 70%);
+        }
+    </style> -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-header">
+            <div class="container">
+                <div class="top-hedear-data">
+                    <div class="top-header-content text-black">tilØf ny side 'afsp aerre' efter SØG PROFIL</div>
+
+                    <div class="top-header-login-text">log ind (ikke log pa)</div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" /></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="opertprofile.html">OPRET PROFIL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="jobapplications.html">SØG PROFIL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">REFERENCE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">OM CE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contactus.html">KONTAKT </a>
+                                </li>
+
+
+                            </ul>
+                            <!-- Close button added -->
+                            <button class="navbar-toggler close-btn" type="button">×</button>
+                            <div class="header_icons">
+                                <!-- <a href="#" id="search_btn"><i class="fa fa-search" aria-hidden="true"></i> </a> -->
+                                <!-- LOG IN BUTTON -->
+
+                                <a href="login.html" class="btn btn--bordered-light-sm log-in hide-mobile">
+                                    <svg style="width:14px;margin-right:.5rem;" aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="user-circle"
+                                        class="svg-inline--fa fa-user-circle fa-w-16" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                        <path fill="currentColor"
+                                            d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z">
+                                        </path>
+                                    </svg>
+                                    <span>Log på</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="opert-profile">
+            <div class="container" id="grad1">
+                <div class="row ">
+                    <!-- justify-content-center mt-0-->
+                    <div class="col">
+                        <!-- -11 col-sm-9 col-md-7 col-lg-12 text-center p-0 mt-3 mb-2 -->
+                        <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+                            <h2><strong>OPRET PROFIL</strong></h2>
+                            <div class="row">
+                                <div class="col-md-12 mx-0">
+                                    <form id="msform">
+                                        <!-- progressbar -->
+                                        <ul id="progressbar">
+                                            <li class="active" id="account"><strong>Account</strong></li>
+                                            <li id="personal"><strong>Personal</strong></li>
+                                            <li id="payment"><strong>Payment</strong></li>
+                                            <li id="confirm"><strong>Finish</strong></li>
+                                        </ul>
+                                        <!-- fieldsets -->
+                                        <fieldset>
+                                            <div class="row">
+                                                <div class="col-6 tablet">
+                                                    <div class="form-p width">
+                                                        <p>CE Casting jagter altid nye ansigter, og vi har også kig på
+                                                            dit.</p>
+                                                        <p> Kroller eller ej. Batman eller Joker. Bas eller sopran. Vi
+                                                            onsker at arbejde sammen med alle typer, uanset om du har
+                                                            erfaring inden for film- og reklamebranchen eller ej.</p>
+                                                        <p>Vores database rummer alt fra professionelle til mere
+                                                            uerfarne profiler.</p>
+                                                        <p>Og uanset niveau, kan der være lidt nervositet forbundet med
+                                                            en casting. Vi gør derfor meget ud af at investere den
+                                                            nodvendige tid, der skal til, så du præsterer dit bedste
+                                                            foran kameraet. </p>
+                                                        <p> CE Casting caster skuespillere, statister og andre talenter
+                                                            til reklamefilm, tv-produktioner, spillefilm, musikvideoer,
+                                                            printmedier, voice overs mm.</p>
+                                                        <p>Har du en profil hos CE Casting, kontakter vi dig, når
+                                                            vi ser et match.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 tablet">
+                                                    <div class="form-card">
+                                                        <h2 class="fs-title">Registrere-step1/3</h2>
+                                                        <div class="row g-2">
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="text" placeholder="Fornavn">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="text" placeholder="Efternavn">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2">
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="email" placeholder="Email">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="email" placeholder="Bekræft Email">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2">
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="password" name="pwd"
+                                                                        placeholder="Adgangskode" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="password" name="cpwd"
+                                                                        placeholder="Bekræft Adgangskode">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2 spacs">
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="tel" name="pwd"
+                                                                        placeholder="Adgangskode" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <div class="form-floating width">
+                                                                    <select class="list-dt cast-select"id="floatingSelectGrid"aria-label="Floating label select example">
+                                                                        <option selected>Landsdel</option>
+                                                                        <option value="1">Afrikaans</option>
+                                                                        <option value="2">Arabisk</option>
+                                                                        <option value="3">Bosnisk</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="button" name="next" class="next action-button"
+                                                value="Næste step" />
+                                        </fieldset>
+                                        <fieldset>
+                                            <!-- create it for the mobile responsive
+                                            delete it   -->
+                                            <div class="row shifty">
+                                                <div class="col-6 col-md col-sm-12">
+                                                    <div class="form-card">
+                                                        <h2 class="fs-title">Erfaring & Skills - step 2/3</h2>
+                                                        <div class="row g-2">
+                                                            <div class="col-md-space">
+                                                                <div class="form-floating">
+                                                                    <select class="list-dt cast-select"
+                                                                        id="floatingSelectGrid2"
+                                                                        aria-label="Floating label select example">
+                                                                        <option selected>Skills</option>
+                                                                        <option value="1">Afrikaans</option>
+                                                                        <option value="2">Arabisk</option>
+                                                                        <option value="3">Bosnisk</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2 left ">
+                                                            <div class="col-md-space">
+                                                                <div class="form-floating">
+                                                                    <select class="list-dt cast-select"
+                                                                        id="floatingSelectGrid3"
+                                                                        aria-label="Floating label select example">
+                                                                        <option selected>Andre Skills</option>
+                                                                        <option value="1">Afrikaans</option>
+                                                                        <option value="2">Arabisk</option>
+                                                                        <option value="3">Bosnisk</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2">
+                                                            <div class="col-md-spacex">
+                                                                <div class="form-floating">
+                                                                    <select class="list-dt cast-select"
+                                                                        id="floatingSelectGrid2"
+                                                                        aria-label="Floating label select example">
+                                                                        <option selected>Sprong</option>
+                                                                        <option value="1">Afrikaans</option>
+                                                                        <option value="2">Arabisk</option>
+                                                                        <option value="3">Bosnisk</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="row g-2">
+                                                            <div class="col-md-spacing">
+                                                                <div class="form-floating-sp">
+                                                                    <p>Hvis du har lyst til at dele dit cv, showreal,
+                                                                        videoklip eller links fra produktioner du har
+                                                                        medvirket i, er du meget velkommen til at
+                                                                        uploade dine filer eller links her
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="row g-2 laptop1">
+                                                            <div class="col-md">
+                                                                <span><img src="img/pdf.png">
+                                                                    <input type="file" id="file-input"
+                                                                        name="file-input" />
+                                                                    <label id="file-input-label hidebox"
+                                                                        for="file-input">PDF</label>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <span><img src="img/yt.png">
+                                                                    <input type="file" id="file-input"
+                                                                        name="file-input" />
+                                                                    <a id="file-input-label hidebox color"
+                                                                        href="#">YOUTUBE</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2 laptop2">
+                                                            <div class="col-md">
+                                                                <span><img src="img/upload.png">
+                                                                    <input type="file" id="file-input"
+                                                                        name="file-input" />
+                                                                    <label id="file-input-label hidebox"
+                                                                        for="file-input">Upload
+                                                                        Video</label>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <span><img src="img/v.png">
+                                                                    <input type="file" id="file-input"
+                                                                        name="file-input" />
+                                                                    <a id="file-input-label hidebox color"
+                                                                        href="#">VIMEO</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2 laptop3">
+                                                            <div class="col-md">
+                                                                <span><img src="img/upload.png">
+                                                                    <input type="file" id="file-input"
+                                                                        name="file-input" />
+                                                                    <label id="file-input-label hidebox"
+                                                                        for="file-input">Upload
+                                                                        Video</label>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <span><img src="img/insta.png"></span>
+                                                                <input type="file" id="file-input" name="file-input" />
+                                                                <a id="file-input-label hidebox color"
+                                                                    href="#">INSTAGRAM</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 col-md col-sm-12">
+                                                    <div class="form-card">
+                                                        <div class="row g-2">
+                                                            <div class="col-md down">
+                                                                <label class="form-label">Hvilke kategori(er) passer
+                                                                    til dig?</label>
+                                                                <div class="form-check-data">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            id="checkbox1" name="checkbox1">
+                                                                        <label class="form-check-label"
+                                                                            for="checkbox1">Skuespil med
+                                                                            erfaring</label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            id="checkbox1" name="checkbox2">
+                                                                        <label class="form-check-label"
+                                                                            for="checkbox2">Statist</label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            id="checkbox1" name="checkbox3">
+                                                                        <label class="form-check-label"
+                                                                            for="checkbox3">Model med kommerciel
+                                                                            erfaring</label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            id="checkbox1" name="checkbox4">
+                                                                        <label class="form-check-label"
+                                                                            for="checkbox4">Model uden
+                                                                            erfaring</label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            id="checkbox1" name="checkbox5">
+                                                                        <label class="form-check-label"
+                                                                            for="checkbox5">Dubbing</label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            id="checkbox1" name="checkbox6">
+                                                                        <label class="form-check-label"
+                                                                            for="checkbox6">Sanger</label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            id="checkbox1" name="checkbox7">
+                                                                        <label class="form-check-label"
+                                                                            for="checkbox7">Andet</label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            id="checkbox1" name="checkbox8">
+                                                                        <label class="form-check-label"
+                                                                            for="checkbox8">Medlem af DFS (Dansk
+                                                                            Skuespiller Forbund)</label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            id="checkbox1" name="checkbox8">
+                                                                        <label class="form-check-label"
+                                                                            for="checkbox9">Er du Interesset i jobs
+                                                                            som
+                                                                            afspaerra?</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="button" name="previous" class="previous action-button-previous"
+                                                value="Previous" />
+                                            <input type="button" name="next" class="next action-button"
+                                                value="Næste step" />
+                                        </fieldset>
+                                        <fieldset>
+                                            <div class="row content ">
+                                                <div class="col-6 col-md col-sm-12">
+                                                    <div class="form-card">
+                                                        <h2 class="fs-title">Udseende -step 3/3</h2>
+                                                        <div class="row g-2">
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="text" placeholder="Kon">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="text" placeholder="Fodselsdag ">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2">
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="email" placeholder="Harfarve ">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="email" placeholder="Hårtype">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2">
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="password" name="pwd"
+                                                                        placeholder="Ojenfarve">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="password" name="cpwd"
+                                                                        placeholder="Etnicitet ">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2">
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="tel" name="pwd" placeholder="Hojde">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md left">
+                                                                <input type="email" placeholder="Vægt ">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2">
+                                                            <div class="col-md ">
+                                                                <div class="form-floating">
+                                                                    <input type="email" placeholder="Blusestorrelse ">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                    <input type="email" placeholder="Blusestorrelse ">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2">
+                                                            <div class="col-md tablet">
+                                                                <div class="form-floating">
+                                                                    <input type="email" placeholder="Skostorrelse ">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 col-md col-sm-12">
+                                                    <div class="form-p">
+                                                        <p>For at sikre, at vi bedst kan matche dig med potentielle
+                                                            roller soger vi at se dit naturlige udseende, Her er nogle
+                                                            retningslinjer for at hjalpe dig med at tage de perfekte
+                                                            billeder</p>
+                                                        <p> Tag alle dine billeder op af en neutral baggrund. </p>
+                                                        <h4>Profilbillede:</h4>
+                                                        <p>Dit ansigt skal vaere tydeligt og i fokus.<br />Undg at bæere
+                                                            briller, hatte eller anvende filtre, så dit naturlige
+                                                            udseende er fremtraedende Sorg for god belysning, så alle
+                                                            trak er synlige.</p>
+                                                        <h4>Totalbillede</h4>
+                                                        <p>Billedet skal vise hele din figur fra top til t hvor du stlr
+                                                            oprejst og ansigtet er vendt mod kameraet</p>
+                                                        <h4>Sidebilleder:</h4>
+                                                        <p>Upload et billede taget fra hver side. Sta sidelans til
+                                                            kameraet, så din profil er tydelig.</p>
+                                                        <h4>Billedstorrelse og-format:</h4>
+                                                        <p>Sorg for, at dine billeder er i et acceptabelt format (eks.
+                                                            JPG, PNG) og ikke for store i filstorrelse, så de nemt kan
+                                                            uploades og vises på vores platform torrelse Ved at folge
+                                                            disse retningslinjer, hjalper du os med at give en nojagtig
+                                                            reprasentation af dig sehv, hvilket oger dine chancer for at
+                                                            blive udvalgt til roller, der passer til din profi.</p>
+                                                    </div>
+                                                    <div class="row content">
+                                                        <div class="col-6">
+                                                            <div class="last-section-content">
+                                                                <div class="last-section-content-data">
+                                                                    <div class="last-section-img">
+                                                                        <img src="img/insta.png">
+                                                                    </div>
+                                                                    <div class="last-section-data">
+                                                                        <p>Upload profilbillede</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="last-section-content">
+                                                                <div class="last-section-content-data">
+                                                                    <div class="last-section-img">
+                                                                        <img src="img/insta.png">
+                                                                    </div>
+                                                                    <div class="last-section-data">
+                                                                        <p>Upload profilbillede</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-12">
+                                                    <label class="left-button">Privatlivspolitik</label>
+                                                    <div class="mb-3">
+                                                        <div class="form-check last-section">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="acceptCheckbox" required>
+                                                            <label class="form-check-label" for="acceptCheckbox">
+                                                                Jeg giver hermed samtykke til, at CE Casting ApS må
+                                                                opbevare og bruge de angivne personoplysninger i
+                                                                forbindelse med castings og jobs. Jeg tilkendegiver
+                                                                samtidig, at 3. part har adgang til mine oplysninger,
+                                                                som er synlige på min onlineprofil. Øvrige informationer
+                                                                deles ikke med 3. part, medmindre at det er aftalt i
+                                                                forbindelse med et givent job. Ønsker du ikke længere at
+                                                                være medlem og fremgå af CE Castings emnedatabase, bedes
+                                                                du kontakte os, og dine oplysninger vil herefter blive
+                                                                slettet.
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <input type="button" name="previous" class="previous action-button-previous"
+                                                value="Previous" />
+                                            <input type="button" name="make_payment" class="next action-button"
+                                                value="Confirm" />
+
+                                            <input type="button" name="center_button" class="center-width"
+                                                value="OPRET DIN PROFIL" />
+
+                                        </fieldset>
+                                        <fieldset>
+                                            <div class="form-card">
+                                                <h2 class="fs-title text-center">Success !</h2>
+                                                <br><br>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-3">
+                                                        <img src="https://img.icons8.com/color/96/000000/ok--v2.png"
+                                                            class="fit-image">
+                                                    </div>
+                                                </div>
+                                                <br><br>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-7 text-center">
+                                                        <h5>You Have Successfully Signed Up</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-logo"><img src="img/logo.png"></div>
+            <div class="address">Nyrnberggade 12 2300 Copenhagen S<br>
+                <a href="mailto:info@cecasting.dk">info@cecasting.dk</a>
+                -<a href="tel:9110 1081"></a><a href="tel:9110 1081">9110 1081</a>
+                <a href="tel:&amp; 3174 6161">&amp; 3174 6161</a>
+
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-ul">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">OPRET PROFIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SØG PROFIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">REFERENCE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">OM CE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">KONTAKT </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="footer-social-icon">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i> </a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-copy-right">
+                <p>©2024 <a href="#">CE CASTING</a>. Alle rettigheder reserveret. <a class="" href="#">COOKIE- OG
+                        PRIVATLIVSPOLITIK</a></p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.floatingSelectGrid').select2();
+            
+            $(".input_set").on('click', function (e) {
+      e.preventDefault();
+      var $this = $(this);
+      var file = $this.parent('.upload-input').find('.file_input');
+      file.trigger('click');
+
+    });
+
+    // $('input[type="file"]').on('change', function () {
+    //   var $this = $(this);
+    //   $this.parent().addClass('loading');
+    //   $this.parent().parent().find('.model-img-size').addClass('loading');
+
+    //   let files = new FormData();
+    //   files.append('fileName', $this[0].files[0]);
+    //   files.append('action', 'registerimage');
+    //   $.ajax({
+    //     type: 'post',
+    //     url: "/wp-admin/admin-ajax.php",
+    //     processData: false,
+    //     contentType: false,
+    //     data: files,
+    //     dataType: 'json',
+    //     success: function (response) {
+    //       $this.parent().removeClass('loading');
+    //       if ($this.attr('name') == "cv_pdf_input") {
+    //         $("#cv_pdf").val(response.original_image);
+    //       } else {
+    //         var htmlfield = "<input type='hidden' name='images[]' class='profile_image' value='" + response.original_image + "'> "
+    //         $this.parent('.upload-input').find('.inputs').html(htmlfield);
+    //         $this.parent().parent().find('.prev_image').attr('src', response.url);
+    //         $this.parent().parent().find('.exist_image').hide();
+    //         $this.parent().parent().find('.model-img-size').removeClass('loading');
+    //         $this.parent().parent().find('.prev_image').show()
+    //       }
+
+
+    //       console.log(response);
+    //     },
+    //     error: function (err) {
+    //       $this.parent().removeClass('loading');
+    //       console.log(err);
+    //     }
+    //   });
+
+    // });
+
+  });
+
+    </script>
+
+</body>
+
+</html>
